@@ -8,7 +8,7 @@ __copyright__ = '2013, Kovid Goyal <kovid at kovidgoyal.net>'
 
 import re
 
-from PyQt4.Qt import QTextBlockUserData
+from PyQt5.Qt import QTextBlockUserData
 
 from calibre.gui2.tweak_book.editor import syntax_text_char_format
 from calibre.gui2.tweak_book.editor.syntax.base import SyntaxHighlighter
